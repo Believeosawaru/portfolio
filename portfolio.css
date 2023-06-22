@@ -1,0 +1,48 @@
+header { 
+background: linear-gradient(to right,
+#81D080, #4EB888); height: 4.5em; 
+font-family: Georgia;}
+.play {font-weight: bold; font-size: 
+1.5em; text-align: center; font-family: serif, Georgia, Garamond;}
+.main {font-weight: bold; font-family: serif; 
+line-height: 0.0625em;}
+nav li {list-style-type: none; display: inline;}
+nav {line-height: 
+1.875em; 
+}
+.div1 {margin-top: 6em;}
+.alin {text-align: center;}
+nav li {font-family: Georgia; font-size: 1.2em; margin: 
+0.5em; display: inline;}
+.marg {margin-top: -1em;}
+body {background: linear-gradient(to right,
+#81D080, #4EB888); font-family: arial, helvetica, sans-serif;}
+article p {font-family: "lucida sans", lucida, 
+serif; word-spacing: 2px;}
+a {text-decoration: none; color: currentcolor;}
+.li1 {color: #4EB888; background-color: black;}
+.blend {color: black; margin-left: 250px; margin-top: 
+-150px; font-style: italic; font-family: serif;
+}
+img {width: 200px; height: 200px ;
+}
+.li2 {color: red;}
+.p1 {color:red; font-family: serif; text-shadow: 1px 1px
+  1px black}
+}
+div p {font-family: Arial, Helvetica, Sans-Serif;}
+.devon {border: 1px solid black; 
+}
+article {margin-top: 320px;}
+* {box-sizing: border-box;}
+.boo {color: black;}
+.iii {font-weight: bold;}
+.under {text-decoration: underline;}
+@media (min-width:1000px) { 
+  img {width: 400px; height: 400px;}
+  .li1 {font-size: 1.6em;}
+  article {margin-top: 520px; font-size: 1.6em;}
+  .blend {margin-left: 500px; margin-top: -200px; 
+  font-size: 1.6em;} 
+  .boo {font-size: 30px;}
+}
