@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Lugrasimo&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@1,200&display=swap" rel="stylesheet">
+
+  <link
+  rel="stylesheet"
+  href="my.css">
+  <meta
+  name="viewport"
+  content="width=device-width initial-scale: 1.0;">
+  <meta charset="UTF-8">
+  </head>
+  <body>
+<div class="flex-a">
+<div class="topnav" id="myTopnav">
+  <a href="#home" style="font-family:'Lugrasimo', cursive;">Snow<span class="w-txt">Dev</span></a>
+  <a href="#home" class="active"
+  id="a-shft"><i class="fa fa-home"></i>Home</a>
+  <a href="#portfolio"><i class="fa fa-code"></i>Portfolio</a>
+  <a href="#about"><i class="fa fa-user"></i>About</a>
+  <a href="#contact"><i class="fa fa-phone"></i>Contact</a>
+  <a href="javascript:void(0)" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  </div>
+</div>
+<div class="first-div" id="home">
+<div class="text-typing">
+  <h1 class="first-h">
+    Transform</h1>
+    <h1 class="first-h">Your Website
+  </h1>
+  <p class="first-p">Get a stunning website designed today. <br>
+  Boost your business<br> with an online platform that stands out.</p>
+  
+ 
+</div>
+
+  <div>
+  <button style=
+ "font-family: 'Open Sans', sans-serif;"
+  ><a href="#contact">Get Started</a></button>
+  </div>
+</div>
+</div>
+<!-- while portfolio bg-->
+<div class="white-bg">
+  <h2 id="portfolio">My Portfolio</h2>
+  <div class="p-div">
+  <div class="p-item">
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <p>My Recent Work</p>
+    <img
+    src="portfour.jpg"
+    width="50%"
+    class="img-border"
+    style="">
+    <div class="text">
+     <div class="slide-border">
+       <p>View</p>
+     </div>
+    </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <p>My Recent Work</p>
+    <img src="portone.jpg" width="50%"
+    class="img-border">
+    <div class="text">
+     <div class="slide-border">
+       <p>View</p>
+     </div>
+    </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <p>My Recent Work</p>
+    <img src="portthree.jpg" width="50%"
+    class="img-border">
+   <div class="text">
+     <div class="slide-border">
+       <p>View</p>
+     </div>
+    </div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <p>My Recent Work</p>
+    <img src="porttwo.jpg" width="50%"
+    class="img-border">
+    <div class="text">
+     <div class="slide-border">
+       <p>View</p>
+     </div>
+    </div>
+  </div>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(1)"></span>
+</div>
+    
+
+  </div>
+</div>
+</div>
+<!-- background color at  the top of rounded
+image-->
+<!--
+<h2 class="h-divider" id="about">About Me</h2>
+<div class="bg-col-div">
+</div>
+<!-- the div for roundedimg amd its div-->
+<!--<div class="img-div">
+  <img
+  src="believe.jpg"
+  class="first-img">
+  </div>
+  <section class="my-info">
+<p> <span>Believe Osawaru </span> <br>
+ <span>Web Developer</span></p>
+ <div class="icon-div">
+   <img
+   src="fb.png"
+   alt="facebook-logo"
+   width="20vw"
+   height="20vh">
+   <img
+   src="insta.jpg"
+   alt="instagram-logo"
+   width="20vw"
+   height="20vh">
+   <img
+   src="whatsapp.jpg"
+   alt="whatsapp-logo"
+   width="20vw"
+   height="20vh">
+   <img
+   src="gmail.png"
+   alt="gmail-logo"
+   width="20vw"
+   height="20vh">
+   <img
+   src="linkedin.jpg"
+   alt="likedin-logo"
+   width="20px"
+   height="20px">
+   </div>
+    <div class="btn-div">
+      <button class="btn-col">
+   <a href="#contact"
+   style="color: white;">Contact Me</a></button>
+    <button class="btn-col"
+    onclick="alert('Downloading, Kindly Check Your Folder')">
+    <a href="cv.pdf" style="color: white;" download>Download CV</a></button>
+ </div>
+ <p>My name is 
+ <span>Believe Osawaru</span> </p>
+ <p>I am a Freelance <span>Web Developer
+ </span>
+ </p> 
+ <p class="p-up"><a href="
+   https://www.linkedin.com/in/believe-osawaru-209568275?trk=contact-info">
+  you can check out my upwork profile here
+ </a></p>
+ <p>I make User-friendly websites with
+ sleek, mordern and top-notch interface</p>
+</section>
+-->
+<article class="faqs">
+  <h3>Reviews</h3>
+  <div class="comm-div">
+  <p>"Believe is an extraordinary person.
+  
+</p> 
+<p>A talented front-end developer, and an amazing human being.
+</p>
+<p>
+i highly recommend him if you need a web developer for any of your projects"</p>
+<p>~Prince Godstime
+<br>
+CEO, Pendy Integrated
+</p>
+  </div>
+</article>
+<section class="section-2">
+  <h1 id="contact">Contact Me</h1>
+  <p><i class="fa fa-contact"></i>
+    <a href="#">
+  09017574406
+  </a></p>
+  <p><img
+  src="fb.png"
+  alt="facebook-logo"
+  width="20vw"
+  height="20vh"
+  >
+    <a href="#">
+  believe_osawaru</p>
+  </a>
+  <p>
+    <img
+    src="insta.jpg"
+    alt="instagram-logo"
+    width="20vw"
+    height="20vh"
+    >
+      <a href="#">
+    believe_osawaru
+    </a>
+  </p>
+ <p>
+    <img
+    src="linkedin.jpg"
+    alt="LinkedIn-logo"
+    width="20vw"
+    height="20vh"
+    >
+      <a href="#">
+    believe_osawaru
+    </a>
+  </p>
+ <p>
+    <img
+    src="gmail.png"
+    alt="Gmail-logo"
+    width="20vw"
+    height="20vh"
+    >
+   <a href="#">
+     believeosawaru2@gmail.com</a>
+  </p>
+</section>
+<script src="my.js">
+</script>
+</body>
+</html>
